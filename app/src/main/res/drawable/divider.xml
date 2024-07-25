@@ -1,0 +1,32 @@
+<!-- res/layout/view_divider_with_text.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp">
+
+    <!-- 左侧分割线 -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_weight="1"
+        android:background="#FF969799" />
+
+    <!-- 中间文字 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他登录方式"
+        android:textColor="#FF969799"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp" />
+
+    <!-- 右侧分割线 -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_weight="1"
+        android:background="#FF969799" />
+</LinearLayout>

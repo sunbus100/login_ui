@@ -1,0 +1,9 @@
+<!-- rounded_button_bg.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#57C051" /> <!-- 设置填充颜色为 #57C051 -->
+            <corners android:radius="48dp" /> <!-- 设置圆角半径为 48dp -->
+        </shape>
+    </item>
+</selector>

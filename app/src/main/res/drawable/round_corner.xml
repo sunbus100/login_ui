@@ -1,0 +1,6 @@
+<!-- rounded_corner_bg.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FFFFFF" /> <!-- 设置背景颜色 -->
+    <corners android:radius="48dp" /> <!-- 设置圆角半径为 48dp -->
+</shape>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        android:contentDescription="Back" />
+
+    <TextView
+        android:layout_width="181.44dp"
+        android:layout_height="42.24dp"
+        android:layout_marginStart="89.28dp"
+        android:layout_marginTop="84.48dp"
+        android:text="账号密码登录"
+        android:textColor="#FF000000"
+        android:textSize="30.2sp" />
+
+    <TextView
+        android:layout_width="135.36dp"
+        android:layout_height="17.28dp"
+        android:layout_marginStart="112.32dp"
+        android:layout_marginTop="136.32dp"
+        android:text="请使用已注册的账号密码"
+        android:textColor="#FF969799"
+        android:textSize="12.10sp"
+        />
+
+
+    <View
+        android:layout_marginStart="12.48dp"
+        android:layout_marginTop="179.52dp"
+        android:layout_width="335.04dp"
+        android:layout_height="39.36dp"
+        android:background="@drawable/round_corner" />
+
+    <TextView
+        android:layout_marginStart="63.36dp"
+        android:layout_marginTop="189.6dp"
+        android:layout_width="22.08dp"
+        android:layout_height="19.2dp"
+        android:text="+86"
+        android:textColor="#FFC8C9CC"
+        android:textSize="12.48sp"
+        />
+
+    <TextView
+        android:layout_marginStart="100.8dp"
+        android:layout_marginTop="189.6dp"
+        android:layout_width="73.92dp"
+        android:layout_height="19.2dp"
+        android:text="请输入手机号"
+        android:textColor="#FFC8C9CC"
+        android:textSize="12.20sp"
+        />
+
+    <View
+        android:layout_marginStart="12.48dp"
+        android:layout_marginTop="235.2dp"
+        android:layout_width="335.04dp"
+        android:layout_height="39.36dp"
+        android:background="@drawable/round_corner" />
+
+    <TextView
+        android:layout_marginStart="62.4dp"
+        android:layout_marginTop="246.72dp"
+        android:layout_width="102.72dp"
+        android:layout_height="19.2dp"
+        android:text="请输入6~12位密码"
+        android:textColor="#FFC8C9CC"
+        android:textSize="12.20sp"
+        />
+
+    <TextView
+        android:layout_marginStart="286.08dp"
+        android:layout_marginTop="301.44dp"
+        android:layout_width="61.44dp"
+        android:layout_height="19.2dp"
+        android:text="忘记密码？"
+        android:textColor="#FF165DFF"
+        android:textSize="12.00sp"
+        />
+
+    <Button
+        android:layout_width="329.28dp"
+        android:layout_height="42.24dp"
+        android:layout_marginStart="12.48dp"
+        android:layout_marginTop="369.6dp"
+        android:alpha="0.5"
+        android:background="@drawable/roundbutton"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_marginStart="9.6dp"
+        android:layout_marginTop="428.16dp"
+        android:layout_width="329.28dp"
+        android:layout_height="19.2dp"
+        android:text="使用验证码登录/注册"
+        android:textColor="#FF57C051"
+        android:textSize="13.44sp"
+        android:gravity="center"
+        />
+
+    <CheckBox
+        android:id="@+id/remember_password_checkbox"
+        android:layout_width="19.2dp"
+        android:layout_height="19.2dp"
+        android:layout_marginStart="12.48dp"
+        android:layout_marginTop="301.44dp"
+        android:button="@drawable/checkbox"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="57.8dp"
+        android:layout_height="19.2dp"
+        android:layout_marginStart="40.48dp"
+        android:layout_marginTop="301.44dp"
+        android:text="记住密码"
+        android:textSize="12.00sp"
+        android:textColor="#000000" /> <!-- 文字颜色设置为黑色 -->
+
+    <CheckBox
+        android:id="@+id/agree_checkbox"
+        android:layout_width="19.2dp"
+        android:layout_height="19.2dp"
+        android:layout_marginStart="12.48dp"
+        android:layout_marginTop="341.76dp"
+        android:button="@drawable/checkbox"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:layout_width="300.8dp"
+        android:layout_height="19.2dp"
+        android:layout_marginStart="40.48dp"
+        android:layout_marginTop="341.76dp"
+        android:text="同意《XXX平台服务协议》 和 《隐私政策》"
+        android:textSize="12.00sp"
+        android:textColor="#000000" /> <!-- 文字颜色设置为黑色 -->
+
+    <View
+        android:layout_marginStart="78.72dp"
+        android:layout_marginTop="468.64dp"
+        android:layout_width="61.92dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="#FF969799" />
+    
+    <TextView
+        android:layout_width="68.16dp"
+        android:layout_height="23.04dp"
+        android:layout_marginStart="141.64dp"
+        android:layout_marginTop="456.96dp"
+        android:text="其他登录方式"
+        android:textSize="11.20sp"
+        android:textColor="#FF969799"/>
+
+
+    <View
+        android:layout_marginStart="208.8dp"
+        android:layout_marginTop="468.64dp"
+        android:layout_width="61.92dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="#FF969799" />
+
+    <ImageView
+        android:id="@+id/phone_image"
+        android:layout_marginStart="24.96dp"
+        android:layout_marginTop="187.68dp"
+        android:layout_width="23.04dp"
+        android:layout_height="23.04dp"
+        android:src="@drawable/phone"/>
+
+    <ImageView
+        android:id="@+id/code_image"
+        android:layout_marginStart="24.96dp"
+        android:layout_marginTop="243.36dp"
+        android:layout_width="23.04dp"
+        android:layout_height="23.04dp"
+        android:src="@drawable/admit_code"/>
+
+    <ImageView
+        android:id="@+id/not_see_image"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="243.36dp"
+        android:layout_width="23.04dp"
+        android:layout_height="23.04dp"
+        android:src="@drawable/code"/>
+
+    <ImageView
+        android:id="@+id/wechat_image"
+        android:layout_marginStart="96.96dp"
+        android:layout_marginTop="496.32dp"
+        android:layout_width="38.4dp"
+        android:layout_height="38.4dp"
+        android:src="@drawable/wechat"/>
+
+    <ImageView
+        android:id="@+id/qq_image"
+        android:layout_marginStart="158.4dp"
+        android:layout_marginTop="496.32dp"
+        android:layout_width="38.4dp"
+        android:layout_height="38.4dp"
+        android:src="@drawable/qq"/>
+
+    <ImageView
+        android:id="@+id/apple_image"
+        android:layout_marginStart="219.84dp"
+        android:layout_marginTop="496.32dp"
+        android:layout_width="38.4dp"
+        android:layout_height="38.4dp"
+        android:src="@drawable/apple"/>
+
+
+</RelativeLayout>
